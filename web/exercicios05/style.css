@@ -1,0 +1,43 @@
+.div_principal{
+border: solid 1px blue;
+width: 500px;
+height: 400px;
+
+}
+
+.div_titulo{
+border: solid 1px black;
+width: 480px;
+height: 50px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+margin-top: 8px;
+margin-left: 8px;
+text-align: center;
+padding-top: 10px;
+
+}
+
+.div_imagem{
+    border: solid 1px black;
+    width: 238px;
+    height: 300px;
+    border-bottom-left-radius: 5px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    float: left;
+    
+
+}
+
+.div_botao{
+    border: solid 1px black;
+    width: 240px;
+    height: 300px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    float: left;
+
+
+}

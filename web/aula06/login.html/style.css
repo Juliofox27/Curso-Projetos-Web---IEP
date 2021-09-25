@@ -1,0 +1,36 @@
+.container{
+background-color: lightskyblue;
+text-align: center;
+
+}
+
+.row{
+background-color: white;
+
+
+
+
+}
+
+.caixa_titulo{
+border:solid 1px lightgrey;
+font-size: 20px;
+
+
+}
+
+.caixa_conteudo{
+    border:solid 1px lightgrey;
+    font-size: 20px;
+    height: 300px;
+}
+
+
+.caixa_formulario{
+
+margin-top: 20px;
+margin-bottom: 20px;
+text-align: left;
+}
+
+
