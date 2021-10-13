@@ -1,22 +1,29 @@
 
 .sessao_cinza{
+    border-radius: 100%;
+    width: 80px; 
+    height: 80px; 
     background-color: #f7f7f7;
     padding-top: 20px;  
     padding-bottom: 20px;
     }
     
     .sessao_titulo{
-    background-color: gold;
-    text-align: center;
+    padding: 0 auto;
+    text-align: center; 
+    margin-bottom: 10px;
     }
 
     .sessao_colorida{
     background-image: url(https://cdn.motor1.com/images/mgl/epxA6/s3/2021-maserati-ghibli-trofeo.jpg);
+    margin-top: 20px;
+    margin-bottom: 20px;
     }
     
     .caixa_servico{
-    background-color: gold;
-    margin: 10px;
+    background-color: yellow;
+    margin:10px;
+    margin-top: 10px;
     border-radius: 5px;
     padding: 10px;
     text-align: center;
@@ -36,6 +43,6 @@
     }
 
     .caixa_rodape{
-    background-color: yellow;
+    background-color: gray;
     text-align: left;
     }
