@@ -31,174 +31,166 @@
         <!--inicio responsivo-->
         <div class="container-fluid"  > 
             
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Naruto Shippuden</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">seleção</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">E-mail</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          personagens
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Vila da Folha</a></li>
-                          <li><a class="dropdown-item" href="#">Akatsuki</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Hokages</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link disabled"> </a>
-                      </li>
-                    </ul>
-                    <form class="d-flex">
-                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">buscar</button>
-                    </form>
-                  </div>
-                </div>
-              </nav>
+      
                                                 
                 <!--inicio sessao linha-->
                 <div class="row justify-content-center">
-                                 
+                                  
                   <div class="caixa_geral">
 
                      <!--inicio titulo-->
                      <div class="col-12 caixa_titulo">
-                     <img src="fotos/nome.jpg" height="300px" >
+                     <img src="fotos/nome.jpg" width="100%" height="300px" >
                      </div>
                      <!--fim titulo-->
-                    </div>  
-                     
-                    <!--inicio carrosel-->
                     
-                     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                      <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                      </div>
-                      <div class="carousel-inner">
-                        <div class="carousel-item active">
-                          <img src="fotos/jinchurics.jpg" class="d-block w-100" alt="...">
-                          <div class="carousel-caption d-none d-md-block">
-                            <h5>jinchurics</h5>
-                            <p>jinchurics e seus respectivos Bijus.</p>
+                     
+                    <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+                      <a class="navbar-brand" href="#" style="font-size: xx-large ;">Naruto Shippuden</a>
+                      <ul class="nav nav-pills">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#scrollspyHeading1" >temas</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#scrollspyHeading2">Historia</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">lacunas</a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#scrollspyHeading3">Personagens</a></li>
+                            <li><a class="dropdown-item" href="#scrollspyHeading4">Outros Personagens</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#scrollspyHeading5">rodape</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </nav>
+                    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+                      <h4 id="scrollspyHeading1"></h4>
+                      <p> <!--inicio carrosel-->
+                              
+                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                         <div class="carousel-indicators">
+                           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                         </div>
+                         <div class="carousel-inner">
+                           <div class="carousel-item active">
+                             <img src="fotos/jinchurics.jpg" class="d-block w-100" alt="...">
+                             <div class="carousel-caption d-none d-md-block">
+                               <h5>jinchurics</h5>
+                               <p>jinchurics e seus respectivos Bijus.</p>
+                             </div>
+                           </div>
+                           <div class="carousel-item">
+                             <img src="fotos/akatsuki3.png" class="d-block w-100" alt="...">
+                             <div class="carousel-caption d-none d-md-block">
+                               <h5>Akatsuki</h5>
+                               <p>mercenarios do mal.</p>
+                             </div>
+                           </div>
+                           <div class="carousel-item">
+                             <img src="fotos/5 kages.jpg" class="d-block w-100" alt="...">
+                             <div class="carousel-caption d-none d-md-block">
+                               <h5>Kages</h5>
+                               <p>Lideres das 5 principais Vilas.</p>
+                             </div>
+                           </div>
+                         </div>
+                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                           <span class="visually-hidden">Previous</span>
+                         </button>
+                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                           <span class="visually-hidden">Next</span>
+                         </button>
+                       </div>
+                       <!--fim carrosel--></p>
+                      <h4 id="scrollspyHeading2"></h4>
+                      <p>  <!--rodape-->
+                        <div class="card">
+                          <div class="card-header">
+                            
+                          </div>
+                          <div class="card-body">
+                            <h5 class="card-title">Grande guerra Ninja</h5>
+                            <p class="card-text">A quarta e última guerra não foi entre nações, na verdade, elas se uniram contra um inimigo maior ainda: Madara Uchiha.
+                              A declaração de guerra veio de Obito, que atuou ao lado de Madara e da Akatsuki, a fim de reunir todas as bestas de caudas e colocar seu falso plano de paz em prática. O conflito reuniu os ninjas mais fortes de todos os tempos em um grupo conhecido como Aliança Shinobi. Muitos personagens importantes e poderosos morreram mas Madara finalmente foi derrotado.</p>
+                            <a href="#" class="btn btn-primary">Detalhes da Guerra</a>
                           </div>
                         </div>
-                        <div class="carousel-item">
-                          <img src="fotos/akatsuki3.png" class="d-block w-100" alt="...">
-                          <div class="carousel-caption d-none d-md-block">
-                            <h5>Akatsuki</h5>
-                            <p>mercenarios do mal.</p>
+                        <!--fim rodapé--></p>
+                      <h4 id="scrollspyHeading3"></h4>
+                      <p> 
+                          
+                          <!--inicio comentarios-->                          
+                           <div class = " col-12 col-md-4 caixa_personagem " >
+                           <Img  src = "fotos/minato.jpg" style ="border-radius: 100%; width: 100px; height: 100px; " >   Minato Relampago Amarelo <br >
+                            O primeiro grande conflito começou um pouco depois de todas as aldeias terem sido criadas. Hashirama havia se tornado o primeiro Hokage de Konoha através de eleições e implorou para que a paz fosse mantida. Ele até ofereceu distribuir todas as bestas de caudas entre as aldeias pois assim o nível de poder estaria equilibrado entre os povos e isso evitaria que um atacasse o outro. Entretanto, nunca houve estabilidade.
+                           </div>
+                      
+                           <div class = " col-12 col-md-4 caixa_personagem2 " >
+                           <Img  src = "fotos/naruto.jpg" style ="border-radius: 100%; width: 100px; height: 100px; " > Uzumaki Naruto <br >
+                            Naruto trabalhou duro para ganhar o respeito e o reconhecimento da aldeia, com o sonho de se tornar Hokage. Nos anos seguintes, Naruto torna-se um ninja capaz, que é eventualmente considerado como um herói, tanto por parte dos moradores como pelo mundo shinobi em geral.
+                           </div>    
+                     
+                           <div class = " col-12 col-md-4 caixa_personagem " >
+                           <Img  src = "fotos/Jiraiya.png" style ="border-radius: 100%; width: 100px; height: 100px; " >   Jiraya Sennin <br >
+                            Jiraiya foi um dos Sannin Lendários, junto com Tsunade e Orochimaru, treinados por Hiruzen Sarutobi. Ele era um auto-proclamado super-pervertido, e o escritor da popular série de livros de ficção para adultos, chamado Icha Icha. Ele também era conhecido como o Sábio dos Sapos (Gama Sennin), por causa da sua assinatura de invocação de sapos, e por seu status como sábio.
+                           </div>
+                    
+                           <div class = " col-12 col-md-4 caixa_personagem2 " >
+                           <Img  src = "fotos/sasuke.jpg" style ="border-radius: 100%; width: 100px; height: 100px; " > Uchiha Sasuke <br >
+                            Uchiha Sasuke é um dos últimos membros sobreviventes do clã Uchiha de Konohagakure, além de ser a reencarnação atual de Indra. Ele se tornou um shinobi para que pudesse algum dia ficar forte o suficiente para se vingar contra o seu irmão mais velho, Itachi, que tinha massacrado todo o seu clã. Inicialmente, um membro do Time Kakashi de Konoha, Sasuke desertou da aldeia para obter poder com Orochimaru, e mais tarde também se juntou a Akatsuki, tornando-se um criminoso internacional no processo.
+                           </div>
+                          <!--fim comntarios--></p>
+                           
+
+                      <h4 id="scrollspyHeading4"></h4>
+                      <p>
+                       <!--botoões de informações -->
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="card">
+                              <div class="card-body">
+                                <h5 class="card-title">Outros Personagens</h5>
+                                <p class="card-text">clique para saber mais informações dos ninjas de Konorra</p>
+                                <a href="#" class="btn btn-primary">saiba mais</a>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="card">
+                              <div class="card-body">
+                                <h5 class="card-title">Personagens da Akatsuki</h5>
+                                <p class="card-text">clique para saber mais informações dos vilões da Akatsuki.</p>
+                                <a href="#" class="btn btn-primary">saiba mais</a>
+                              </div>
+                            </div>
                           </div>
                         </div>
-                        <div class="carousel-item">
-                          <img src="fotos/5 kages.jpg" class="d-block w-100" alt="...">
-                          <div class="carousel-caption d-none d-md-block">
-                            <h5>Kages</h5>
-                            <p>Lideres das 5 principais Vilas.</p>
+                        <!--fim botões de informações--></p>
+                      <h4 id="scrollspyHeading5"></h4>
+                      <p> <!--rodape-->
+                        <div class="collapse" id="navbarToggleExternalContent">
+                          <div class="bg-dark p-4">
+                            <h5 class="text-white h4">Julio Cesar</h5>
+                            <span class="text-muted">Curso Projetos Web</span>
                           </div>
                         </div>
-                      </div>
-                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                      </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                      </button>
+                        <nav class="navbar navbar-dark bg-dark">
+                          <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                          </div>
+                        </nav></p>
                     </div>
-                    <!--fim carrosel-->
-        
-
-        <!--rodape-->
-        <div class="card">
-          <div class="card-header">
-            Historia
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Grande guerra Ninja</h5>
-            <p class="card-text">A quarta e última guerra não foi entre nações, na verdade, elas se uniram contra um inimigo maior ainda: Madara Uchiha.
-              A declaração de guerra veio de Obito, que atuou ao lado de Madara e da Akatsuki, a fim de reunir todas as bestas de caudas e colocar seu falso plano de paz em prática. O conflito reuniu os ninjas mais fortes de todos os tempos em um grupo conhecido como Aliança Shinobi. Muitos personagens importantes e poderosos morreram mas Madara finalmente foi derrotado.</p>
-            <a href="#" class="btn btn-primary">Detalhes da Guerra</a>
-          </div>
-        </div>
-        <!--fim rodapé-->
-
-        <!--inicio comentarios-->
-          <div class = " col-12 col-md-4 caixa_apresentação " >
-          <Img  src = "fotos/minato.jpg" style ="border-radius: 100%; width: 100px; height: 100px; " >   Minato Relampago Amarelo <br >
-          O primeiro grande conflito começou um pouco depois de todas as aldeias terem sido criadas. Hashirama havia se tornado o primeiro Hokage de Konoha através de eleições e implorou para que a paz fosse mantida. Ele até ofereceu distribuir todas as bestas de caudas entre as aldeias pois assim o nível de poder estaria equilibrado entre os povos e isso evitaria que um atacasse o outro. Entretanto, nunca houve estabilidade.
-          </div>
-        
-            <div class = " col-12 col-md-4 caixa_apresentação2 " >
-            <Img  src = "fotos/naruto.jpg" style ="border-radius: 100%; width: 100px; height: 100px; " > Uzumaki Naruto <br >
-              Naruto trabalhou duro para ganhar o respeito e o reconhecimento da aldeia, com o sonho de se tornar Hokage. Nos anos seguintes, Naruto torna-se um ninja capaz, que é eventualmente considerado como um herói, tanto por parte dos moradores como pelo mundo shinobi em geral.
-            </div>    
-       
-              <div class = " col-12 col-md-4 caixa_apresentação " >
-              <Img  src = "fotos/Jiraiya.png" style ="border-radius: 100%; width: 100px; height: 100px; " >   Jiraya Sennin <br >
-                Jiraiya foi um dos Sannin Lendários, junto com Tsunade e Orochimaru, treinados por Hiruzen Sarutobi. Ele era um auto-proclamado super-pervertido, e o escritor da popular série de livros de ficção para adultos, chamado Icha Icha. Ele também era conhecido como o Sábio dos Sapos (Gama Sennin), por causa da sua assinatura de invocação de sapos, e por seu status como sábio.
-              </div>
-        
-                <div class = " col-12 col-md-4 caixa_apresentação2 " >
-                <Img  src = "fotos/Sasuke.jpg.crdownload" style ="border-radius: 100%; width: 100px; height: 100px; " > Uchiha Sasuke <br >
-                Uchiha Sasuke é um dos últimos membros sobreviventes do clã Uchiha de Konohagakure, além de ser a reencarnação atual de Indra. Ele se tornou um shinobi para que pudesse algum dia ficar forte o suficiente para se vingar contra o seu irmão mais velho, Itachi, que tinha massacrado todo o seu clã. Inicialmente, um membro do Time Kakashi de Konoha, Sasuke desertou da aldeia para obter poder com Orochimaru, e mais tarde também se juntou a Akatsuki, tornando-se um criminoso internacional no processo.
-                </div>
-                <!--fim comntarios-->
-      
-               <!--botoões de informações -->
-                <div class="row">
-                  <div class="col-sm-6">
-                    <div class="card">
-                      <div class="card-body">
-                        <h5 class="card-title">Outros Personagens</h5>
-                        <p class="card-text">clique para saber mais informações dos ninjas de Konorra</p>
-                        <a href="#" class="btn btn-primary">clique aqui</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="card">
-                      <div class="card-body">
-                        <h5 class="card-title">Personagens da Akatsuki</h5>
-                        <p class="card-text">clique para saber mais informações dos vilões da Akatsuki.</p>
-                        <a href="#" class="btn btn-primary">clique aqui</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!--fim botões de informações-->
-                <!--rodape-->
-                <div class="collapse" id="navbarToggleExternalContent">
-                  <div class="bg-dark p-4">
-                    <h5 class="text-white h4">Julio Cesar</h5>
-                    <span class="text-muted">Curso Projetos Web</span>
-                  </div>
-                </div>
-                <nav class="navbar navbar-dark bg-dark">
-                  <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                  </div>
-                </nav>
-        </div>       
-
-        
-  
-        </div>
+                                
+                </div>      
+<!--fim div geral-->
+         </div>
         <!--fim responsivo-->    
-       
+      
