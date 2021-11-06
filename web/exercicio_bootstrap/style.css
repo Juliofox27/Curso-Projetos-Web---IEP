@@ -37,3 +37,12 @@
         }
 
     }
+
+
+    .bg-dark{
+        color: white;
+    }
+
+    .navbar-brand{
+        color: red;
+    }

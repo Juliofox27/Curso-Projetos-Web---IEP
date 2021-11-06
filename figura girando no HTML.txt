@@ -1,0 +1,6 @@
+<marquee behavior="scroll" direction="left" style="margin: 10px;">
+
+  <img src="voador.jpg" width="8%" alt="digita texto"> 
+  <img src="voador.jpg" width="8%" alt="">
+  <img src="voador.jpg" width="8%" alt="">
+</marquee>
